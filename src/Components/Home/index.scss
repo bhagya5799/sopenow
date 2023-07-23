@@ -1,0 +1,40 @@
+$color_1: white;
+$color_2: rgb(244, 78, 78);
+$color_3: black;
+$background-color_1: rgb(90, 50, 220);
+
+.my-chart {
+  height: 100dvh;
+  width: 100dvw;
+  overflow: hidden;
+}
+
+nav {
+  height: 3rem;
+  width: 100%;
+  background-image: linear-gradient(to right, pink, rgb(188, 207, 222));
+  border-left: 1rem solid rgb(207, 83, 104);
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+
+  &:nth-child(1) {
+    color: $color_2;
+    opacity: 1;
+  }
+}
+
+.button {
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: $background-color_1;
+  color: $color_1;
+  border-width: 0;
+}
+
+span {
+  color: $color_3;
+  font-weight: bold;
+}
